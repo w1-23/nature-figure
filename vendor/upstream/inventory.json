@@ -1,0 +1,1128 @@
+{
+  "commit": "c6701dbea29afa7c596d029b957b7edc92130ea5",
+  "figure_manifest_version": "2.8.0",
+  "files": {
+    "LICENSE": {
+      "bytes": 11357,
+      "disposition": "upstream_apache_license",
+      "paths": [
+        "LICENSE"
+      ],
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "skills/nature-figure/.gitignore": {
+      "bytes": 10,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/.gitignore"
+      ],
+      "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e"
+    },
+    "skills/nature-figure/README.md": {
+      "bytes": 9387,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/README.md"
+      ],
+      "sha256": "ecfb4230aa2dd65dc5c892534d414a3fc74eb3c7d746ee7e414ee165c749d98c"
+    },
+    "skills/nature-figure/README_EN.md": {
+      "bytes": 10581,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/README_EN.md"
+      ],
+      "sha256": "6b4674bcd5b949dcca8ebda134739c252e4b0d229eca1d58e1474d4284c49a87"
+    },
+    "skills/nature-figure/SKILL.md": {
+      "bytes": 12367,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/SKILL.md"
+      ],
+      "sha256": "5aefe708a2531c5ddaa8ee74d5155d747e96c0f21a33143d38316b7c5c88ffc4"
+    },
+    "skills/nature-figure/agents/openai.yaml": {
+      "bytes": 232,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/agents/openai.yaml"
+      ],
+      "sha256": "21cb8daa84cf7d9ce6932828128c53c5ef94cd18824a6d641a26e9eb0f75fe03"
+    },
+    "skills/nature-figure/assets/chart-atlas/atlas-01-bar-charts.png": {
+      "bytes": 125370,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "4a0e3040bbdbfe5ec48b66515f719f83ad7304fadb2e56432cd3e8f7ccbabd65"
+    },
+    "skills/nature-figure/assets/chart-atlas/atlas-02-line-trends.png": {
+      "bytes": 423651,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "9a8189149180a68679738bc4be152ee40b17d71261d71b3759d315a7169da0d9"
+    },
+    "skills/nature-figure/assets/chart-atlas/atlas-03-heatmaps.png": {
+      "bytes": 159834,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "40dd7c7c14c45b45cc22ee23e19f2dc1901f38b26a1fb4b0f26a30dbd10c0423"
+    },
+    "skills/nature-figure/assets/chart-atlas/atlas-04-scatter-bubble.png": {
+      "bytes": 485091,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "1bbfbc38a3f246e4fd7c59b9ed1003ddbc7280ee160b7c38abf8d410b27fe6f8"
+    },
+    "skills/nature-figure/assets/chart-atlas/atlas-05-radar-polar.png": {
+      "bytes": 630054,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "e7fa7d98cd4f5263f5550d7ac8824e60071c20b2927aef52ac6d18d62fd29ffa"
+    },
+    "skills/nature-figure/assets/chart-atlas/atlas-06-distributions.png": {
+      "bytes": 233827,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "a1fe533d07dae36d11c997577ded61adb16bf5d4dd5c0dee2ff92ae570f0f01e"
+    },
+    "skills/nature-figure/assets/chart-atlas/atlas-07-forest-interval.png": {
+      "bytes": 270166,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "dc61a5257eae4748348c72c51f2e70e59979c6892f52dadf7bb4ba6f8b98b00b"
+    },
+    "skills/nature-figure/assets/chart-atlas/atlas-08-area-stacked.png": {
+      "bytes": 334735,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "350c25e427d945dee5fd98316eb6ebe307304b9d187d954a88c05852d664a60b"
+    },
+    "skills/nature-figure/assets/chart-atlas/atlas-09-image-plates.png": {
+      "bytes": 359027,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "bbc8c0b8708d42465e57cb7c56b4d2ecfbaa63340a5a6dfefbcb51189cd1a995"
+    },
+    "skills/nature-figure/assets/chart-atlas/atlas-10-network-matrix.png": {
+      "bytes": 312125,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "cd384abe10aa86bd310c1288a42f33735cb555c267bddae1ecd262905a7a1de5"
+    },
+    "skills/nature-figure/assets/figures4papers/THIRD_PARTY_NOTICES.md": {
+      "bytes": 982,
+      "disposition": "upstream_notice",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/assets/figures4papers/THIRD_PARTY_NOTICES.md"
+      ],
+      "sha256": "b0ef9d2fe959468fce4f45472b12ff4d4fc9450201caa42d394823cd4a5e20d5"
+    },
+    "skills/nature-figure/assets/figures4papers/assets/Dispersion_motivation.png": {
+      "bytes": 837657,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "04c2f6ab2bedf8e6a19449f0260ef36f8ab736a93dccf19458cdc80d4b593547"
+    },
+    "skills/nature-figure/assets/figures4papers/assets/Dispersion_observation.png": {
+      "bytes": 808992,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "59846b700abcf89c2779abce27b5d667637f6429cf4a52ca1892c687359f2aa7"
+    },
+    "skills/nature-figure/assets/figures4papers/assets/Dispersion_observation_distillation.png": {
+      "bytes": 616612,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "134b0fcb07dbab1baa769854100fc9791b846f6f6c50591485564fc8492b6660"
+    },
+    "skills/nature-figure/assets/figures4papers/assets/ImmunoStruct_contrastive.png": {
+      "bytes": 502211,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "c2590ba1ecac5e1d0976df3be6e9fa4056dcdd78670201c6db461e3e4f18b0d0"
+    },
+    "skills/nature-figure/assets/figures4papers/assets/ImmunoStruct_results_CEDAR.png": {
+      "bytes": 1281557,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "f1f564e0c7221f24f4bffe14cce5b5df6786c75f7dfcf1b6d2be7566820050ec"
+    },
+    "skills/nature-figure/assets/figures4papers/assets/ImmunoStruct_results_IEDB.png": {
+      "bytes": 956273,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "2768b1a5ef0c501dc03c53c594a28e028df2cd57b51c4fd80c9a57906f6195c5"
+    },
+    "skills/nature-figure/assets/figures4papers/assets/ImmunoStruct_schematic.png": {
+      "bytes": 972870,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "2d3ddf56ae63b34ead168cb95b484881f934e61204a8740c67d6dc1678bbaf7d"
+    },
+    "skills/nature-figure/assets/figures4papers/assets/RNAGenScape_schematic.png": {
+      "bytes": 1000298,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "ef85b974a990b74c230dc1a80d3bb357f4f8a430d13c12c6120927c9fb797287"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_CellSpliceNet/figures/ablation.png": {
+      "bytes": 355284,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "3373085ababf07481a352fe542fd79a58701e0e052c5593ca56984008ddad027"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_CellSpliceNet/figures/comparison.png": {
+      "bytes": 813084,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "49d4ebc7d1867918b9d0167d8e821d8ce7845459a9da55a6fefcef87eeb7024d"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_CellSpliceNet/figures/comparison_human.png": {
+      "bytes": 880800,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "131654637e894c12f441ad4a9cf5533999939971e3f051f81e46ba802f75d854"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_CellSpliceNet/figures/comparison_worm.png": {
+      "bytes": 925266,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "137841e62d5eaa48998a97246849b8ede08d2d165c8bb4ad3fd6a18d6b6c65e2"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_CellSpliceNet/plot_ablation.py": {
+      "bytes": 2964,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "0d0959102afe26249199a60fb67d5c8bd282a6fdb9c7e024c51a9c42a6a58c7f"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_CellSpliceNet/plot_comparison.py": {
+      "bytes": 3909,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "4e888489587ca7d345893715cc8f34a9b92cc347ffe5b20291093df1c2f23bd6"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_CellSpliceNet/plot_comparison_cross_species.py": {
+      "bytes": 6532,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "9061cd3476a2923e557e34585803da8e0df31a01f7cb5dd0f468b83458eeae33"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Cflows/diffusion_swiss_roll.py": {
+      "bytes": 3545,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "2ecd52231b6f095d8471b94bcae58d6c844f14cc8494c6c1636887711cabe592"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Cflows/figures/diffusion_swiss_roll.png": {
+      "bytes": 1794980,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "9f02fa4603dae748e3745b95b0ed252f2ba386da6101dc1be6c4a2a886c78eb0"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Cflows/figures/fig2_comparison_GeneRegulatory.pdf": {
+      "bytes": 24757,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "30b1efaf3293a240c6646f076a14f702bb3556fd10a1fb791c23deb90d3ff40e"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Cflows/figures/fig2_comparison_GeneRegulatory.png": {
+      "bytes": 287419,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "96075eb70285f4f72869b99398c9a923336fbc3a5188883d9e8415e1cc027a46"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Cflows/figures/fig2_comparison_Trajectory.pdf": {
+      "bytes": 19791,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "465050a8f8c8be85eb3e8d17c16eaef3df50acc41b2bd212d2b6176d97efc78c"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Cflows/figures/fig2_comparison_Trajectory.png": {
+      "bytes": 388293,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "91b214f745a99f1f2b472ddae7661dfa2d9241791768767180219315b89047ec"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Cflows/figures/figX_comparison_Ablation.pdf": {
+      "bytes": 19233,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "d4c7b8013a24aa830a0f83b8cf5ffd917a932458e6a265f4b5f29e9a4389960a"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Cflows/figures/figX_comparison_Ablation.png": {
+      "bytes": 328952,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "4f7b7b4b01a1b498540850ddabc217fd964eb37142e99a6ee6b5c26cf12aba7f"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Cflows/plot_comparison_Ablation.py": {
+      "bytes": 2506,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "d5ab173adbf5be9486e8325f9904123fe7430c0c937e1eebd88dee38049cd787"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Cflows/plot_comparison_GeneRegulatory.py": {
+      "bytes": 3022,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "8659356aa5b92a7969dd8e46144c4c68fe97850cb58c2da6a5b011b7daf88129"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Cflows/plot_comparison_Trajectory.py": {
+      "bytes": 2941,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "bc154c3e99fd4895ceefefeef81298055a8cd42e5795547e1fe1632edabe5b69"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Dispersion/figures/idea.png": {
+      "bytes": 384839,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "e805fb0f7ccdf8aa3ae764e8156cf6b61b6d56ef7dded0fc7556566e316649a3"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Dispersion/figures/illustration.png": {
+      "bytes": 762950,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "2528309a41ba6edab9c377a2304c144813c0e99565239a849c427ab00a14643b"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Dispersion/plot_idea.py": {
+      "bytes": 2432,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "c540a368c5a60b90fec950da8c5085d2ebfa47c367e3270fa3fb38176cf8134e"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_Dispersion/plot_illustration.py": {
+      "bytes": 15472,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "7f9c451d336f718a2c4287130a45ec4597b9fad43746de314a018655c639ec98"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_FPGM/figures/freq_prior.png": {
+      "bytes": 641033,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "0f8f77c4de67324cf7ddd7ee370a8ef39f10417b241142b9bacbc830677ff0fe"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_FPGM/plot_freq_prior.py": {
+      "bytes": 6578,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "d9c5a53ff6c76e9545ea0d65292841765e849d1076afc6a92f2127041740d8bf"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_ImmunoStruct/figures/bars_ablation_Cancer.png": {
+      "bytes": 816715,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "46c9e05df9d7c941628791ac447c5d84a29d942896ce3a13d00432e9f5c720ef"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_ImmunoStruct/figures/bars_ablation_IEDB.png": {
+      "bytes": 1160225,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "854fe931bde6ca6c50eda6b147907f00d8f10d74c3b40bad1714b903bf945f00"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_ImmunoStruct/figures/bars_comparison_Cancer.png": {
+      "bytes": 799770,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "0c35bb8a1fb21d5e30e16be152fc92959af580d9e24f04ccc61444adba8c7aa2"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_ImmunoStruct/figures/bars_comparison_IEDB.png": {
+      "bytes": 757551,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "18a52f7a910fe9c9ff06015f5a1e63527458a86c847f573eb96ba254d4645ac1"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_ImmunoStruct/plot_bars.py": {
+      "bytes": 7707,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "1d028144e620d1cfac66ea5ab57004dfa286d80214480c76d046d9f346fda408"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_ImmunoStruct/raw_data.py": {
+      "bytes": 4459,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "837be4150b7419085caa84746734099ccc78e0f3fb4242e91b81ce1bde6009ca"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_RNAGenScape/figures/manifold.png": {
+      "bytes": 108276,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "83e55ca23d8aa2fa591a46d3fe4f9d6ac11e17cbc9657e2615d883ea6deb937c"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_RNAGenScape/figures/manifold_holes.png": {
+      "bytes": 1019896,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "2ad2be6fa9c9165e800dba4d997850c9a426cbe9b441c78b76518335bcc3f948"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_optimization.png": {
+      "bytes": 850446,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "4cf8539d0521b7268f0227b56cecddf2f70c1bb4bbcf9b5e3be886e95a54927a"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_RNAGenScape/figures/results_comparison_speed.png": {
+      "bytes": 92362,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "cd1fec84f615a43dbe91cc94bfbb94fe07e086fdd5d8191fbff2ec990e38d4f5"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_RNAGenScape/figures/results_sweep.png": {
+      "bytes": 142120,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "4db30b32b65e6b7160ebe025993c2ffdaf6e240d836c253419e91649d3da8deb"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_RNAGenScape/plot_comparison.py": {
+      "bytes": 11236,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "b2b30a212d084ae5ba7b82aa1fd830cbfea82a4eef507edfa1757b1734b250e3"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_RNAGenScape/plot_hole_manifold.py": {
+      "bytes": 2547,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "cc31a470f0364c19f094c1ef32ada4909fb53dab638f56a552fe55d44942ded1"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_RNAGenScape/plot_manifold.py": {
+      "bytes": 1811,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "aa6461c85b1d03b30f7e12824821c1149f1a4beb56394a20304126a592cf8021"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_RNAGenScape/plot_sweep.py": {
+      "bytes": 2873,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "123a14749450ef5895161b6823e7b8d217dbee181f39da954f5a8b2439be2961"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_VIGIL/figures/ablation_curves.png": {
+      "bytes": 600708,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "302b8f53795653bf7ebe74ca508319c073325bdda1f106ca9eb3cd7c690da7c7"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_VIGIL/figures/comparison_posttraining.png": {
+      "bytes": 249289,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "a6f2e75e7d8361754445d86ce04386b5764a46bf2cbc94e8df0c75ecf1bab142"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_VIGIL/figures/comparison_radar.png": {
+      "bytes": 809841,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "d6613715d9d4564fb0c7354430b227d43c9df04032e32b346601971381e5ba2d"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_VIGIL/figures/concept.png": {
+      "bytes": 1643817,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "3554b9af671886dfbbe985016440c5ba1633b4e8b08d50539d992982c5cc2bf5"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_VIGIL/plot_ablation.py": {
+      "bytes": 6038,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "b3c28343cfbb2f16e3e9c60735269d68098bcc7d16d5402f362354466fa272d7"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_VIGIL/plot_comparison_radar.py": {
+      "bytes": 7397,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "d30da4f6a14b33eb7e3350f6f9623caf58d178c099f961270a6e1c17aaaabbee"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_VIGIL/plot_concept.py": {
+      "bytes": 9205,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "b494343947cb33dd076924522a1a0ed910ded2f72b311525890f0e9e6f4a6030"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_VIGIL/plot_posttraining.py": {
+      "bytes": 2948,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "bb1371ace0f1742eb99019c87e18ecc44588ff063141fed5775429e0e373dc1c"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_brainteaser/figures/brute_force.png": {
+      "bytes": 1753162,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "abb63055b0d49edbe9002e820294a622db1429d31b1d2446340036cf1db92607"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_brainteaser/figures/correctness_by_category.png": {
+      "bytes": 655498,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "bc2cc547f15430bc9af2ebdfba0b8cf1c73702e8fbea35d8b2953cc960da117b"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_brainteaser/figures/correctness_by_subcategory.png": {
+      "bytes": 1100554,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "b6639239da2fa9f2bec3eb096ec0db3942965ed38e57446de4b8a240a77c02c6"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_brainteaser/figures/rewriting.png": {
+      "bytes": 410105,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "0460f09210bc23c272602ecb8b3fcf3984f42fc055df3b0e4982eab50303607f"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_brainteaser/figures/selfcorrection_math.png": {
+      "bytes": 611488,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "71133ed59cc16f8c36a4e8b2325575d185f36a8534c29579d2eff177544e9e53"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_brainteaser/plot_brute_force.py": {
+      "bytes": 10181,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "46906a9de2e8a069a2d3022a78087b2933e2cd898a38800242d005ceec40057f"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_brainteaser/plot_correctness_by_category.py": {
+      "bytes": 6403,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "e84d87bf9cf8b7d8a184f558c02de91874215754075526aaa54586e68d931c1a"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_brainteaser/plot_correctness_by_subcategory.py": {
+      "bytes": 6505,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "fc9c20eaf00c7106b4752ad9638a6593c639721a12bfd42a748a6d439366d4af"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_brainteaser/plot_rewriting.py": {
+      "bytes": 3694,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "01939d1cc3807852ac4751ec143d5472193f1511381eae03bf0c01b33a367501"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_brainteaser/plot_selfcorrection_math.py": {
+      "bytes": 4015,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "7656335018d67ecaaae362e63669f22c709e51644681dc801f298356fb7fef7c"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_ophthal_review/figures/composition_heatmap.png": {
+      "bytes": 279533,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "38a9c4e8fd691cbd7dcb4f5b5abb69398b4974d32cad19a4a33819db1cb34f3a"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_ophthal_review/figures/trend_by_month.png": {
+      "bytes": 364102,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "66fe0f27f44697547b6cb219ff90696f54a6fef48984c9578ace258e0ebce4d4"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_ophthal_review/plot_composition.py": {
+      "bytes": 3032,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "8fb5469cc22f13a68a71ab462abd876856b30c93d1f616fe1bd3569da5aee427"
+    },
+    "skills/nature-figure/assets/figures4papers/figure_ophthal_review/plot_trend.py": {
+      "bytes": 5531,
+      "disposition": "third_party_rights_unconfirmed",
+      "paths": [],
+      "sha256": "0a66624628f6e1da4f2da697e86ac79d46576d4bd552f5d585b2ceff05204811"
+    },
+    "skills/nature-figure/assets/gallery/fig1-material-mechanism-rich.png": {
+      "bytes": 570018,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "2e0706fae3256e1de2388f8605f35b9b6ac23cfc397161a952f34cc5fa2f2192"
+    },
+    "skills/nature-figure/assets/gallery/fig2-spatial-imaging-rich.png": {
+      "bytes": 643666,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "90081b3f778b9ede2dba41c60b6abf0c28a239060c69428344539529cd7f3257"
+    },
+    "skills/nature-figure/assets/gallery/fig3-in-vivo-efficacy-rich.png": {
+      "bytes": 371419,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "25d6fc50f5808104a7cb19f4795cea4229fbc6159fa7509f716a94f7c160a033"
+    },
+    "skills/nature-figure/assets/gallery/fig4-single-cell-systems-rich.png": {
+      "bytes": 392735,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "999edb06b942f988a51b11f947845e42e4c346b2f9e5d5a6425def9e43bb69d1"
+    },
+    "skills/nature-figure/assets/gallery/fig5-validation-perturbation-rich.png": {
+      "bytes": 408275,
+      "disposition": "image_provenance_not_individually_verified",
+      "paths": [],
+      "sha256": "245ad31f97b2054628987444e44d6a007f352f65ae6254189f5ed8ba9b0301c6"
+    },
+    "skills/nature-figure/evals/evals.json": {
+      "bytes": 22195,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/evals/evals.json"
+      ],
+      "sha256": "3d75ea7f279ca45fe0ed6db3f7110f653c94eb01c9626b4d823a2df22029d01c"
+    },
+    "skills/nature-figure/manifest.yaml": {
+      "bytes": 7782,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/manifest.yaml"
+      ],
+      "sha256": "f6cf1e50f55c74e159134edb8ca5a57fd5097b72b37463c7b2612757e01c24be"
+    },
+    "skills/nature-figure/references/ai-graphical-abstract-workflow.md": {
+      "bytes": 6263,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/ai-graphical-abstract-workflow.md"
+      ],
+      "sha256": "258c59085ef3eaf28dcda8bf00bab5d3235f0736be1af652911de1af8aa14c4f"
+    },
+    "skills/nature-figure/references/api.md": {
+      "bytes": 20759,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/api.md"
+      ],
+      "sha256": "1ec51840fdc45017735511b1275cada5e09f5d3e7dc44f35b2d8ba052809a4bc"
+    },
+    "skills/nature-figure/references/asset-adaptation.md": {
+      "bytes": 5149,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/asset-adaptation.md"
+      ],
+      "sha256": "64c4f788962d73beba1bbd919255dffe620de3090579e7ec811e88e557ac4c3d"
+    },
+    "skills/nature-figure/references/backend-selection.md": {
+      "bytes": 5937,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/backend-selection.md"
+      ],
+      "sha256": "9ff023b8103da861f2c6e4b8b244a0003120d180ab4fb004c346af5a12343dca"
+    },
+    "skills/nature-figure/references/chart-types.md": {
+      "bytes": 11883,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/chart-types.md"
+      ],
+      "sha256": "68008a60e0285e840a34973db5f945e88051280ac4dcad8a7eb97882c5384dfa"
+    },
+    "skills/nature-figure/references/common-patterns.md": {
+      "bytes": 11668,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/common-patterns.md"
+      ],
+      "sha256": "5f176c70bb846744374a27a342d03761ff9c0a0c7844f87867add3a66c448581"
+    },
+    "skills/nature-figure/references/demos.md": {
+      "bytes": 3282,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/demos.md"
+      ],
+      "sha256": "dc34ab2d1600265f7e03af51afa0d4bda7b235f4cf3d2f73ac791dca8c605cec"
+    },
+    "skills/nature-figure/references/design-theory.md": {
+      "bytes": 18102,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/design-theory.md"
+      ],
+      "sha256": "e8b31da9dec01f552acca6aeffbd06c8dbf53e737d7138075d1f97619c43a47e"
+    },
+    "skills/nature-figure/references/figure-contract.md": {
+      "bytes": 5703,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/figure-contract.md"
+      ],
+      "sha256": "db08b51fb080c5fe37f61140a1b7fd31247f90810f3a80cdcf58429a699879df"
+    },
+    "skills/nature-figure/references/figure-legend-conventions.md": {
+      "bytes": 5165,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/figure-legend-conventions.md"
+      ],
+      "sha256": "7d00fc1839d5b152b289c8d892e723549be06c38ea75761763108a5ac34303fd"
+    },
+    "skills/nature-figure/references/multipanel-evidence-architecture.md": {
+      "bytes": 12732,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/multipanel-evidence-architecture.md"
+      ],
+      "sha256": "79ca617cc05088d6fcfb065140d0ee036eb849738bb79306964eb9aa3a4ed274"
+    },
+    "skills/nature-figure/references/nature-2026-observations.md": {
+      "bytes": 6270,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/nature-2026-observations.md"
+      ],
+      "sha256": "1af8250733da77f1d82cc370e2e8d61266352517b1d1ab82ed6c834de8c98272"
+    },
+    "skills/nature-figure/references/nature-article-requirements.md": {
+      "bytes": 5822,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/nature-article-requirements.md"
+      ],
+      "sha256": "d59ebd80a99b2a91d9b0861529044f6242e1430b37fa4d7c73935a40a6a6be33"
+    },
+    "skills/nature-figure/references/openrouter-image-generation.md": {
+      "bytes": 5928,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/openrouter-image-generation.md"
+      ],
+      "sha256": "52a26512c9eabd040c95c5c97f6fba9b110cd4be5b41d667d372c489d11526c6"
+    },
+    "skills/nature-figure/references/qa-contract.md": {
+      "bytes": 24785,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/qa-contract.md"
+      ],
+      "sha256": "4f31375cdb614d74eddb8aa7691c0bdfc8a8f20defcca27ce4a36192308748a8"
+    },
+    "skills/nature-figure/references/r-template-index.md": {
+      "bytes": 3903,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/r-template-index.md"
+      ],
+      "sha256": "0ebbbd4171896b61639d7969a010401d0aa257bafb99783026a1ba32c91ce19e"
+    },
+    "skills/nature-figure/references/r-workflow.md": {
+      "bytes": 8107,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/r-workflow.md"
+      ],
+      "sha256": "99af2cf2d9b715ce009b5fe01034f7d22998276baae1324027b66de5b6e326d4"
+    },
+    "skills/nature-figure/references/template-catalog.md": {
+      "bytes": 2227,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/template-catalog.md"
+      ],
+      "sha256": "f3dfe03d7ad6d004d17cb1f576e39020f55d1aa6d26f115a3be9ce6279e7d244"
+    },
+    "skills/nature-figure/references/tutorials.md": {
+      "bytes": 8728,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/tutorials.md"
+      ],
+      "sha256": "0fbd92cedc8da312ec4b8655127d61ce2ba68f218b70a346d6716977ab4861d6"
+    },
+    "skills/nature-figure/references/vector-schematic-style-rules.md": {
+      "bytes": 7230,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/vector-schematic-style-rules.md"
+      ],
+      "sha256": "fa96f0452b67deded2ce0437dc6bde7bedeae9dd438f18e22525d61953b32ee5"
+    },
+    "skills/nature-figure/references/vector-schematic-workflow.md": {
+      "bytes": 6629,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/references/vector-schematic-workflow.md"
+      ],
+      "sha256": "9f96fa703bbe29581e50ddac9756900553b5617f46b4a0b31e8978278fffa329"
+    },
+    "skills/nature-figure/requirements.txt": {
+      "bytes": 23,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/requirements.txt"
+      ],
+      "sha256": "e2596dd9f3381fb6280bd18added6c3d0025d954c99a132e3d0bc8d3e8a24d00"
+    },
+    "skills/nature-figure/scripts/audit_figure_collisions.py": {
+      "bytes": 27878,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/scripts/audit_figure_collisions.py",
+        "scripts/audits/audit_figure_collisions.py"
+      ],
+      "sha256": "4ee745c540355835944f33594833a6a87c44fca8d2232188d6c50a858bc33dcb"
+    },
+    "skills/nature-figure/scripts/audit_panel_alignment.py": {
+      "bytes": 39469,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/scripts/audit_panel_alignment.py",
+        "scripts/audits/audit_panel_alignment.py"
+      ],
+      "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56"
+    },
+    "skills/nature-figure/scripts/audit_pdf_text.py": {
+      "bytes": 9965,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/scripts/audit_pdf_text.py",
+        "scripts/audits/audit_pdf_text.py"
+      ],
+      "sha256": "6d570cc8efe91825d6da156ac2599b1ef8fb61ce7074ddc9d1646aeb7a02d9d4"
+    },
+    "skills/nature-figure/scripts/audit_svg_schematic.py": {
+      "bytes": 12891,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/scripts/audit_svg_schematic.py"
+      ],
+      "sha256": "a6c37a081c640383214c78c0fe3aee7b28b50403fa8e94ba7c980bf59e1db452"
+    },
+    "skills/nature-figure/scripts/figure_safety.py": {
+      "bytes": 2216,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/scripts/figure_safety.py"
+      ],
+      "sha256": "0e3e9601aacdafca32ef5fbf1967bdeec0abbf7f564edfd711875432bd47c212"
+    },
+    "skills/nature-figure/scripts/generate_openrouter_schematic.py": {
+      "bytes": 10755,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/scripts/generate_openrouter_schematic.py"
+      ],
+      "sha256": "5be6ff8dd0a3df9cfcd95b124ef3f7cc278a3e9d8e335d8c832e6368d3a1244f"
+    },
+    "skills/nature-figure/scripts/nature_figure_backend.py": {
+      "bytes": 2906,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/scripts/nature_figure_backend.py"
+      ],
+      "sha256": "9c3c031a57935443d34e183fb9414160694a1f289c5ee4bc69bdd211fef6b559"
+    },
+    "skills/nature-figure/scripts/panel_alignment.R": {
+      "bytes": 6233,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/scripts/panel_alignment.R"
+      ],
+      "sha256": "aeb2db8355e2026e2f2640d25bf18edfa57fb0165ec2c7811f97bb75ba53d26b"
+    },
+    "skills/nature-figure/scripts/plot_templates.py": {
+      "bytes": 29930,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/scripts/plot_templates.py"
+      ],
+      "sha256": "e9a8b02768361910758f7188b35dab3e79b94b0783aea662017ef796ee7c736e"
+    },
+    "skills/nature-figure/scripts/validate_figure.py": {
+      "bytes": 33708,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/scripts/validate_figure.py",
+        "scripts/audits/validate_figure.py"
+      ],
+      "sha256": "efe65ff2ed243a7c09819bf3093a7cc167f6e829fe31a6f3e6fa0d9c99d72d31"
+    },
+    "skills/nature-figure/static/core/contract.md": {
+      "bytes": 6274,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/static/core/contract.md"
+      ],
+      "sha256": "a2b6523a48192cf1dff0d194264c5662c832f4d1da6e9e4763ccd98cc0664d4c"
+    },
+    "skills/nature-figure/static/core/stance.md": {
+      "bytes": 4595,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/static/core/stance.md"
+      ],
+      "sha256": "c7e6860e955a2ee9c24a30dbe88e28741da4eef8290c019e849c6b220ea0f07a"
+    },
+    "skills/nature-figure/static/fragments/backend/python.md": {
+      "bytes": 3535,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/static/fragments/backend/python.md"
+      ],
+      "sha256": "1d4809e4ec4ed2d40995d74828732012a6a72c941dfec341745a3118e9312865"
+    },
+    "skills/nature-figure/static/fragments/backend/r.md": {
+      "bytes": 3299,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/static/fragments/backend/r.md"
+      ],
+      "sha256": "4839a77846f0f71a7a44f077ee8fc665460033e7006cb18a884562712d667e2d"
+    },
+    "skills/nature-figure/tests/test_figure_safety.py": {
+      "bytes": 9517,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/tests/test_figure_safety.py"
+      ],
+      "sha256": "aae8e600585bd4429e7ec13a1543e14e41b4a043f3f3d6491c7528e88baf42cb"
+    },
+    "skills/nature-figure/tests/test_schematic_url_safety.py": {
+      "bytes": 2439,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-figure/tests/test_schematic_url_safety.py"
+      ],
+      "sha256": "5ed9221941095b4c80d4494a04212c3afce7f5e8f31fccf20068f77503518d45"
+    },
+    "skills/nature-shared/README.md": {
+      "bytes": 3351,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/README.md"
+      ],
+      "sha256": "2e42d487b9aa4985933dfb230ac57c88e8dfeba97644bb30d2c222de9a65e61e"
+    },
+    "skills/nature-shared/README_EN.md": {
+      "bytes": 3441,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/README_EN.md"
+      ],
+      "sha256": "1d2fd257264aa512f52dfc131d9adfd67c7dcf2b6f1e3c059c693360b027b245"
+    },
+    "skills/nature-shared/SKILL.md": {
+      "bytes": 2130,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/SKILL.md"
+      ],
+      "sha256": "3d914e73f023cab4f247d82f906a948307de8a867fd6c33df999badf67c5d5f2"
+    },
+    "skills/nature-shared/agents/openai.yaml": {
+      "bytes": 271,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/agents/openai.yaml"
+      ],
+      "sha256": "4bbf2e58b350269cf231f73ca12af1d097b9d64637023b037e238083151fbd67"
+    },
+    "skills/nature-shared/core/consistency-sweep.md": {
+      "bytes": 7990,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/core/consistency-sweep.md"
+      ],
+      "sha256": "35a540c10a2c14415b7181588f612e16943cbc4e49f1428010d67c480051f0f9"
+    },
+    "skills/nature-shared/core/discussion-argument-language.md": {
+      "bytes": 9457,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/core/discussion-argument-language.md"
+      ],
+      "sha256": "a3b0ddcadc47efc029e923ae8133ba0bd99e6a6eb27fdbc791d0e1096d98c169"
+    },
+    "skills/nature-shared/core/ethics.md": {
+      "bytes": 3424,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/core/ethics.md"
+      ],
+      "sha256": "065db5761d72c295eb1ed5c231deb0b0bcbb0f1065d530f994c044398bd75056"
+    },
+    "skills/nature-shared/core/main-text-discipline.md": {
+      "bytes": 9168,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/core/main-text-discipline.md"
+      ],
+      "sha256": "d43190c4d617096c1088bb5452cec5b0ae13f5d4947c2b21c28315181f051b8e"
+    },
+    "skills/nature-shared/core/nature-abstract.md": {
+      "bytes": 7951,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/core/nature-abstract.md"
+      ],
+      "sha256": "92c0f1e78df5a9b4dc7ad276ed625e371d211124a47a9eed0a4de82c9c1526cb"
+    },
+    "skills/nature-shared/core/nature-introduction.md": {
+      "bytes": 7680,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/core/nature-introduction.md"
+      ],
+      "sha256": "813fb8acb9b5c76e9c8f1d8c1616fefa82a1ec949d4aba98935b0485fb4cd4f7"
+    },
+    "skills/nature-shared/core/nature-results-discussion.md": {
+      "bytes": 10288,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/core/nature-results-discussion.md"
+      ],
+      "sha256": "16f1ce1ed6d2aad7853eabf304cdbd661530931747bce4cf3f10b3dfb655adc1"
+    },
+    "skills/nature-shared/core/paper-type-taxonomy.md": {
+      "bytes": 2435,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/core/paper-type-taxonomy.md"
+      ],
+      "sha256": "84878907fd0416f628c8e3969e583569b9930f0129e6553167112435d93a3ad1"
+    },
+    "skills/nature-shared/core/reader-workflow.md": {
+      "bytes": 977,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/core/reader-workflow.md"
+      ],
+      "sha256": "acf54e59da3cd29d9179748895c7b5ed0da2d948704e97bee83771698ecbe10d"
+    },
+    "skills/nature-shared/core/research-compliance.md": {
+      "bytes": 7717,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/core/research-compliance.md"
+      ],
+      "sha256": "0ac172d2af0c2089acd7280712a89b23a5f232d4e436e9ae78dd501ff30cd855"
+    },
+    "skills/nature-shared/core/terminology-ledger.md": {
+      "bytes": 2768,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/core/terminology-ledger.md"
+      ],
+      "sha256": "c8ff387fc55439dbec9835d624fb1c1e544cca06ae8d007f8e4f726f68080784"
+    },
+    "skills/nature-shared/journal-formats/nat-comms.md": {
+      "bytes": 7045,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/journal-formats/nat-comms.md"
+      ],
+      "sha256": "5a9eef685502e35d2289478d0b3815d5dbfbb6b2ed7d758accedfc7fd930e975"
+    },
+    "skills/nature-shared/journal-formats/nature-machine-intelligence.md": {
+      "bytes": 18975,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/journal-formats/nature-machine-intelligence.md"
+      ],
+      "sha256": "d62a418fbd67841e745f553b98a267b5a01c9445457a07a0121095ce76fad0af"
+    },
+    "skills/nature-shared/journal-formats/nature.md": {
+      "bytes": 13555,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/journal-formats/nature.md"
+      ],
+      "sha256": "2c4d007f69b64a2e083f9511748c3726b349a4dce4bfccbdac3bf97d1c1afc10"
+    },
+    "skills/nature-shared/manifest.yaml": {
+      "bytes": 4518,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/manifest.yaml"
+      ],
+      "sha256": "c3c4d2f5fcee7889505a3e10c3d5d5d973dd249dfb424581acc4cce52fc89054"
+    },
+    "skills/nature-shared/scripts/check_consistency.py": {
+      "bytes": 8977,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/scripts/check_consistency.py"
+      ],
+      "sha256": "f20b6c24b5203cdcbfd03c83b2c8b055c49581be06a77e619afb7c1352e62bbf"
+    },
+    "skills/nature-shared/tests/test_check_consistency.py": {
+      "bytes": 3488,
+      "disposition": "upstream_project_source",
+      "paths": [
+        "vendor/upstream/skills/nature-shared/tests/test_check_consistency.py"
+      ],
+      "sha256": "0e4580287e1da1e2c0125f376e3ec5ec94f3d71ff1699868de5d3c81b96ea4a1"
+    }
+  },
+  "manifest_paths_verified": [
+    "skills/nature-shared/journal-formats/nature-machine-intelligence.md",
+    "skills/nature-figure/references/ai-graphical-abstract-workflow.md",
+    "skills/nature-figure/references/api.md",
+    "skills/nature-figure/references/asset-adaptation.md",
+    "skills/nature-figure/references/backend-selection.md",
+    "skills/nature-figure/references/chart-types.md",
+    "skills/nature-figure/references/common-patterns.md",
+    "skills/nature-figure/references/demos.md",
+    "skills/nature-figure/references/design-theory.md",
+    "skills/nature-figure/references/figure-contract.md",
+    "skills/nature-figure/references/figure-legend-conventions.md",
+    "skills/nature-figure/references/multipanel-evidence-architecture.md",
+    "skills/nature-figure/references/nature-2026-observations.md",
+    "skills/nature-figure/references/nature-article-requirements.md",
+    "skills/nature-figure/references/openrouter-image-generation.md",
+    "skills/nature-figure/references/qa-contract.md",
+    "skills/nature-figure/references/r-template-index.md",
+    "skills/nature-figure/references/r-workflow.md",
+    "skills/nature-figure/references/template-catalog.md",
+    "skills/nature-figure/references/tutorials.md",
+    "skills/nature-figure/references/vector-schematic-style-rules.md",
+    "skills/nature-figure/references/vector-schematic-workflow.md",
+    "skills/nature-figure/scripts/audit_svg_schematic.py",
+    "skills/nature-figure/scripts/generate_openrouter_schematic.py",
+    "skills/nature-figure/scripts/nature_figure_backend.py",
+    "skills/nature-figure/static/core/contract.md",
+    "skills/nature-figure/static/core/stance.md",
+    "skills/nature-figure/static/fragments/backend/python.md",
+    "skills/nature-figure/static/fragments/backend/r.md"
+  ],
+  "nature_shared_dependencies": [
+    "skills/nature-shared/core/nature-results-discussion.md",
+    "skills/nature-shared/core/research-compliance.md",
+    "skills/nature-shared/journal-formats/nature-machine-intelligence.md"
+  ],
+  "raw_link_exceptions": [
+    [
+      "skills/nature-figure/README.md",
+      "skills/nature-figure/assets/chart-atlas/atlas-03-heatmaps.png",
+      "image_provenance_not_individually_verified"
+    ],
+    [
+      "skills/nature-figure/README.md",
+      "skills/nature-figure/assets/figures4papers/figure_VIGIL/figures/comparison_radar.png",
+      "third_party_rights_unconfirmed"
+    ],
+    [
+      "skills/nature-figure/README.md",
+      "skills/nature-figure/assets/gallery/fig1-material-mechanism-rich.png",
+      "image_provenance_not_individually_verified"
+    ],
+    [
+      "skills/nature-figure/README_EN.md",
+      "skills/nature-figure/assets/chart-atlas/atlas-03-heatmaps.png",
+      "image_provenance_not_individually_verified"
+    ],
+    [
+      "skills/nature-figure/README_EN.md",
+      "skills/nature-figure/assets/figures4papers/figure_VIGIL/figures/comparison_radar.png",
+      "third_party_rights_unconfirmed"
+    ],
+    [
+      "skills/nature-figure/README_EN.md",
+      "skills/nature-figure/assets/gallery/fig1-material-mechanism-rich.png",
+      "image_provenance_not_individually_verified"
+    ]
+  ],
+  "repository": "https://github.com/Yuan1z0825/nature-skills",
+  "tree": "0d3920cb8902776d3ed3f2b2e262d3691678c828"
+}

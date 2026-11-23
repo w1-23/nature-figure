@@ -1,0 +1,15 @@
+This package contains source and documentation from Yuan1z0825/nature-skills,
+commit c6701dbea29afa7c596d029b957b7edc92130ea5, retained under Apache-2.0.
+The archive and copied auditors preserve upstream bytes and attribution.
+The active guidance, example, fixture and tests are independent adaptations.
+
+The archived figures4papers notice refers to an older MIT root license. The
+pinned root LICENSE is Apache-2.0. The notice documents no explicit rights for
+the third-party demos. Their source and output files are omitted. The gallery
+and atlas images are omitted pending individual provenance. See the inventory
+for exact dispositions. No external image or font file is in this repository.
+
+The example uses DejaVu Sans from the installed Matplotlib distribution under
+its accompanying DejaVu/Bitstream Vera terms. Optional PyMuPDF is distributed
+separately by its supplier under AGPL-3.0 or commercial terms. A dependency lock
+does not change package licensing. Review the terms when provisioning PDF QA.

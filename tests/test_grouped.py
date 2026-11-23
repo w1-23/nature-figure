@@ -148,7 +148,7 @@ class GroupedFigureTests(unittest.TestCase):
                 self.assertTrue(path.is_relative_to(install) and path.is_file())
         source = Path(shutil.copy2(fixture, self.scratch / "input.csv"))
         env = {"PATH": os.defpath, "HOME": str(self.scratch), "MPLCONFIGDIR": str(self.scratch / "mpl")}
-        command = [sys.executable, script]
+        command = [sys.executable, "-P", script]
         options = {"cwd": self.scratch, "env": env, "check": True, "capture_output": True, "timeout": 30}
         subprocess.run(command + ["freeze", source, self.frozen], **options)
         source.unlink()

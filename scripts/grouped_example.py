@@ -16,12 +16,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+if __name__ == "__main__" and str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
 from audits.audit_panel_alignment import PanelAlignmentError, require_matplotlib_panel_alignment
 from freeze_groups import freeze_groups
 from render_grouped import VIEW_TITLES, build_figure
 
-
-SCRIPT_DIR = Path(__file__).resolve().parent
 TABLE_TYPES = {
     "observations": {"group": "object", "value": "float64", "source_row": "int64", "position": "float64"},
     "summary": {"group": "object", "mean": "float64", "count": "int64", "order": "int64"},

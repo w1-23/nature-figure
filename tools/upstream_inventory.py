@@ -13,6 +13,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 PIN = "c6701dbea29afa7c596d029b957b7edc92130ea5"
+TREE = "0d3920cb8902776d3ed3f2b2e262d3691678c828"
 SOURCE = "https://github.com/Yuan1z0825/nature-skills"
 FIGURE = "skills/nature-figure/"
 SHARED = "skills/nature-shared/"
@@ -49,11 +50,59 @@ def manifest_targets(manifest):
                       + [item["path"] for item in manifest["references"]["on_demand"]]))
 
 
+def verify_archive():
+    inventory = ROOT / ARCHIVE / "inventory.json"
+    recorded = json.loads(inventory.read_text(encoding="utf-8"))
+    if (recorded["repository"], recorded["commit"], recorded["tree"]) != (SOURCE, PIN, TREE):
+        raise SystemExit("Archive source identity differs from the fixed upstream pin.")
+
+    records = recorded["files"]
+    copies = set()
+    for source, record in records.items():
+        if record["paths"]:
+            relative = PurePosixPath(source)
+            if relative.is_absolute() or ".." in relative.parts:
+                raise SystemExit(f"Unexpected upstream path: {source}")
+        paths, disposition = destinations(source)
+        if paths != record["paths"] or disposition != record["disposition"]:
+            raise SystemExit(f"Archive disposition differs from policy: {source}")
+        for path in paths:
+            target = ROOT / path
+            if not target.is_file() or target.resolve() != target:
+                raise SystemExit(f"Missing or linked archive file: {path}")
+            content = target.read_bytes()
+            if len(content) != record["bytes"] or hashlib.sha256(content).hexdigest() != record["sha256"]:
+                raise SystemExit(f"Archive file differs from its inventory: {path}")
+            copies.add(target)
+
+    expected = {path for path in copies if path.is_relative_to(inventory.parent)} | {inventory}
+    actual = {path for path in inventory.parent.rglob("*") if path.is_file() or path.is_symlink()}
+    if actual != expected:
+        raise SystemExit("Archive file set differs from its inventory.")
+
+    manifest = yaml.safe_load((ROOT / ARCHIVE / FIGURE / "manifest.yaml").read_text(encoding="utf-8"))
+    targets = [posixpath.normpath(FIGURE + path) for path in manifest_targets(manifest)]
+    dependencies = recorded["nature_shared_dependencies"]
+    if manifest["version"] != recorded["figure_manifest_version"] or targets != recorded["manifest_paths_verified"]:
+        raise SystemExit("Archived manifest differs from its inventory.")
+    if any(ROOT / (ARCHIVE + path) not in copies for path in targets + dependencies):
+        raise SystemExit("An archived manifest target or shared dependency is missing.")
+    print(f"Verified {len(copies)} retained copies, {len(targets)} manifest paths, {len(dependencies)} direct shared references.")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("checkout", type=Path)
+    parser.add_argument("checkout", type=Path, nargs="?")
+    parser.add_argument("--verify-only", action="store_true", help="check retained files against the local inventory")
     parser.add_argument("--materialize", action="store_true")
     args = parser.parse_args()
+    if args.verify_only:
+        if args.checkout or args.materialize:
+            parser.error("--verify-only uses only the local inventory")
+        verify_archive()
+        return
+    if args.checkout is None:
+        parser.error("supply a pinned checkout or use --verify-only")
     checkout = args.checkout.resolve()
     if git(checkout, "rev-parse", "HEAD").decode().strip() != PIN:
         raise SystemExit(f"Upstream checkout must be {PIN}.")
@@ -114,6 +163,7 @@ def main():
         inventory.write_text(encoded, encoding="utf-8")
     if inventory.read_text(encoding="utf-8") != encoded:
         raise SystemExit("Upstream inventory differs from the pinned checkout.")
+    verify_archive()
     print(f"Verified {len(records)} upstream files, {len(targets)} manifest paths, {len(dependencies)} direct shared references.")
 
 

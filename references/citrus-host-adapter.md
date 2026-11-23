@@ -1,10 +1,10 @@
 # CitrusScholar adapter guide
 
-Baseline `d275430d3ef01bf9558ccd85204d1bdede631989`. This guide is for the host maintainer.
+Baseline `d275430d3ef01bf9558ccd85204d1bdede631989`. The [capability migration chart](../CAPABILITY_MIGRATION.md) records the fixed release entry, deep host rules, API routes and open host acceptance items.
 
 ## Install
 
-Install a read-only snapshot at `<native-skills-root>/nature-figure/SKILL.md` with `scripts/`, `references/` and `assets/`. Carry `LICENSE` and `NOTICE` and bind the package SHA and lock to the release. Mount that standard root under native `/skills/`. At baseline `01_src/src/agent/host.py` supplies the repository `skills/` to native discovery, and the legacy catalog separately pins historical version and digest. The host maintainer connects the new release root and preserves compatibility with the old snapshot. Keep `vendor/`, `tools/` and `tests/` outside the discoverable snapshot. Provision the Python lock in the managed Worker and optional PDF QA separately.
+Install a read-only snapshot at `<native-skills-root>/nature-figure/SKILL.md` with `scripts/`, `references/`, `assets/` and `CAPABILITY_MIGRATION.md`. Carry `LICENSE`, `NOTICE` and the dependency locks with the release, and pin the package SHA. Mount that standard root under native `/skills/`. At baseline `01_src/src/agent/host.py` supplies the repository `skills/` to native discovery, and the legacy catalog separately pins version and digest. The host maintainer connects the new release root and preserves compatibility with the old snapshot. Keep `vendor/`, `tools/` and `tests/` outside runtime discovery. Provision the Python lock in the managed Worker and optional PDF QA separately.
 
 ## Bind and publish
 
@@ -13,6 +13,6 @@ Install a read-only snapshot at `<native-skills-root>/nature-figure/SKILL.md` wi
 3. Verify and deliver the registered SVG before the next figure. For `means` and `counts`, bind the emitted typed `summary` dataset ref with the authorized typed table loader (`format: dataset`) or `load_dataset`. Forward that DataFrame as the new contract's frozen output parent. This forwarding needs no upload read or statistical calculation. Explicit composition uses one figure declaration and `view='combined'`, with both parent tables.
 4. For a confirmed script failure, apply the host's repair contract with `repair_from_run_id` when the inputs and output contract remain compatible. A changed input or contract uses the host's new-run path. Preserve earlier published figures. Reconcile uncertain side effects before retrying.
 
-The workbench owns replay and on-demand PDF/PNG export from the selected revision. Preserve frozen data and renderer identity, stable object locators and version, and the exact download bytes and hash. Style-only replay uses the existing statistics. If the host assigns its own object IDs, retain the mapping to managed Artists where needed. Confirm the Worker uses licensed managed fonts and keeps explicit font filenames when applying styles.
+The workbench owns replay and on-demand PDF/PNG creation from the selected revision. At `d275430`, the download route serves registered formats. The later host commit `36444ca` adds `POST /api/v2/figures/projects/{figure_id}/export/{fmt}` with `expected_revision` to generate a missing format. Validate the returned figure, format and revision and compare the downloaded bytes with the registered SHA-256 during acceptance. Style-only replay uses the existing statistics. Preserve renderer and frozen data identities, stable object locators and any mapping to managed Artists. Confirm the Worker uses licensed managed fonts and keeps explicit font filenames when applying styles.
 
 Acceptance F01–F05 belongs to the integrated host. Exercise real model invocation, publication order, retained output after later failure, supported style changes and workbench export from an SVG-only project. The standalone smoke establishes the portable contract. Service state, browser behavior, account-scoped authorization, strict Worker startup and actual workbench exports require their own installed-host evidence.

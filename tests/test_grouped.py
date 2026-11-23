@@ -142,7 +142,7 @@ class GroupedFigureTests(unittest.TestCase):
         links = re.findall(r"\]\(([^)]+)\)", instructions)
         script, = [install / link for link in links if link.endswith(".py")]
         fixture, = [install / link for link in links if link.endswith(".csv")]
-        for page in [entry, install / "references/workflow.md", install / "references/quality.md"]:
+        for page in [entry, install / "references/figure-methods.md", install / "references/quality.md"]:
             for link in re.findall(r"\]\(([^)]+)\)", page.read_text()):
                 path = (page.parent / link).resolve()
                 self.assertTrue(path.is_relative_to(install) and path.is_file())

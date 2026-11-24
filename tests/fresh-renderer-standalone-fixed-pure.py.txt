@@ -1,0 +1,6 @@
+# A display-only operation can use an allowed pure-Python equivalent.
+_values = [float(value) for value in data["observations"]["value"]]
+fig, axes = plt.subplots(figsize=(3.54, 2.56))
+axes.plot(_values, color="#0072B2", linewidth=0.8)
+axes.set_xlabel("Observation")
+axes.set_ylabel("Response (a.u.)")
